@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root{
+    --left-btnbgcolor:blue;
+}
+
+.navBars{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fff;
+    padding: 1rem 15rem;
+    position: sticky;
+    top:0;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.nav-titles{
+    font-size: 12px;
+}
+
+.cashbackPara{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.para{
+   margin-top: 1rem;
+   font-size: 14px;
+}
+
+.spanPara{
+    color: blue;
+    cursor: pointer;
+}
+
+.spanPara:hover{
+    border-bottom: 0.1rem solid blue;
+   
+}
+
+/* 2 */
+
+
+.split-wrapper-top{
+    height: 100vh;
+    background-image: url("appleipadmini.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    /* border: 2px solid yellow; */
+}
+
+.wrapper-top{
+    padding: 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.headline{
+   font-size: 3.5rem;
+   font-weight: 500;
+}
+
+.subhead{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.btnParent{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.left-btn,.right-btn{
+    padding: 0.5rem 1rem;
+    border-radius: 1.3rem;
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    background-color: var(--left-btnbgcolor);
+    color: #fff;
+}
+
+.right-btn{
+    background-color: transparent;
+    color: blue;
+    border: 1px solid blue;
+}
+
+/* 3 */
+
+.mobileShow{
+    height: 100vh;
+    background-image: url("apple16pro.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.appleimg{
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.phone{
+    position: absolute;
+}
+
+
+/* 4 */
+
+.mobileSecondShow{
+    height: 100vh;
+    max-width: 100%;
+   background-image: url("iphone16.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-direction: column;
+}
+
+.title{
+    margin-top: 4rem;
+    font-size: 3.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.iphone16BtnParent{
+    text-align: center;
+}
+
+.intell{
+    margin-top: 1rem;
+    font-size: 15px;
+}
+
+/* 5 */
+
+.festiveSeason{
+   display: flex;
+   gap: 1rem;
+   padding: 1rem;
+}
+
+.left-festive{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("festiveApple.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 8rem;
+}
+
+.giftHeading{
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.giftHeading > span{
+    word-break: break-all;
+}
+
+.giftPara{
+    text-align: center;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.shopBtn{
+    padding: 0.5rem 1rem;
+    border-radius: 1.3rem;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+}
+
+.right-festive{
+    width: 50%;
+    height: 100vh;
+    background-image: url("Applewatch.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.apple-logo{
+    display: flex;
+    align-items: center;
+}
+
+.watch-title{
+    font-size: 2rem;
+}
+
+.series{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.thin{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* 6 */
+
+.podsParentContainer{
+    display: flex;
+    gap: 1rem;
+   padding: 1rem;
+}
+
+.leftpods{
+    width: 50%;
+    height: 100vh;
+    background-image: url("airpods.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column; 
+    color: #fff;
+}
+
+.airPods{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.airpodspara1,.airpodspara2{
+    font-size: 1.6rem;
+}
+
+.airpodBtns{
+    display: flex;
+    gap: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.rightLaptops{
+    width: 50%;
+    background-image: url("applelaptop.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.lapName{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.lapPara{
+    font-size: 1.6rem;
+}
+
+.laptopBtns{
+    display: flex;
+    gap: 1.4rem;
+}
+
+/* 7 */
+
+.watchParent{
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.rightWatch{
+    width: 50%;
+    height: 100vh;
+    background-image: url("ultra.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logoLeftParent{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.6rem;
+}
+
+.watchSpan{
+    font-size: 16px;
+    font-weight: 500;
+    color: red;
+}
+
+.watchPara{
+    font-size: 1.8rem;
+}
+
+.watchBtns{
+    display: flex;
+    gap: 1rem;
+}
+
+.leftTrade{
+    width: 50%;
+    height: 100vh;
+    background-image: url("appletradein.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logoRightParent{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logoRightParent > i{
+    font-size: 2rem;
+}
+
+.trade{
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.leftPara{
+    font-size: 1.6rem;
+}
+
+/* 8 */
+
+.footers{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: lightgrey;
+}
+
+.footerParas{
+    font-size: 12px;
+    padding: 1rem 15rem;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #ccc;
+    gap: 1rem;
+}
+
+.footerTags{
+    display: flex;
+    gap: 6rem;
+    font-size: 12px;
+    /* border-bottom: 1px solid #ccc; */
+}
+
+.footerHeading{
+    font-weight: 700;
+}
+
+.footerGaps{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.gaps{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.footerGapsThrd{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+/* .footerMoreParent{
+    text-align: start;
+} */
+
+.footerMore{
+    text-align: start;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+}
+
+.parasFooter{
+    display: flex;
+    gap: 13rem;
+    font-size: 12px;
+    padding-bottom: 1rem;
+}
+
+.footerLastChild{
+    cursor: pointer;
+}
+
+.footerLastChild:hover{
+    border-bottom: 1px solid #ccc;
+}
